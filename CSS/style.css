@@ -1,0 +1,346 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#Titulo_principal{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 20px;
+}
+h4 {
+    font-family: 'Nunito', sans-serif;
+}
+h3 a{
+    font-family: 'Nunito', sans-serif;
+}
+
+.Contenedor_general{
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Menu_section{
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+  /* Flexbox */
+    display: flex;
+    justify-content:space-around;
+	align-items:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.Botonera_principal{
+    font-family: 'Gabriela', serif;
+    font-size: 20px;
+    width: 80%;
+    margin-top: 10px;
+
+    /* Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items:center;  este center como qu eno tiene ningun efecto. reever*/  
+}
+
+.Botonera_principal a{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    /* Flexbox */
+    flex-grow: 1;
+}
+.Botonera_principal a{
+    color: rgb(255, 255, 255);
+}
+
+.Botonera_principal a:visited{
+    color: rgb(43, 183, 226);
+}
+
+.Botonera_principal a:active{
+    color: rgb(10, 10, 10);
+}
+
+.Botonera_principal a:hover{
+    background: hsla(300, 86%, 20%, 0.5);
+}
+.Contenedor{
+   width: 100%;
+   
+   margin: 0 auto;
+   padding: 0 1em;
+}
+
+.Contenido{
+     /* Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.Cuadrado{
+    
+    width: 33%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.Cajas figure img{
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(211, 11, 94, 0.5);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.Cajas{
+    position: relative;
+}
+
+.Cajas:hover{
+    transform: scale(1.1);
+     }
+.Mensaje a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}    
+   
+footer{
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+	width: 100%;
+    height: auto;
+	padding:20px;
+    margin-top: 10px;
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+footer .links {
+	display:flex;
+	flex-wrap:wrap;
+    text-align: center;
+}
+footer .links a {
+	flex-grow:1;
+	color:rgb(252, 249, 249);
+	padding:10px;
+	text-align: center;
+	text-decoration:none;   
+    justify-content: center;
+}
+
+footer .links a:hover {
+    background: hsla(300, 86%, 20%, 0.5);
+}
+
+footer .social a{
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+    background: rgb(21, 1, 26);
+    color:#fff;
+    line-height: 20px;
+    transition: .2s;
+}
+.social a:hover{
+    transform: translateY(-3px) scale(1.05); 
+}
+
+  /*Aqui comienza la otras paginas*/
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+.Contenedor2{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+	padding:20px;
+    display: flex;
+}
+.Contenido2{  
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex:1 1 70%;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.Cuadrado2{
+    
+    width: 48%;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.Cajas2 figure img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(207, 16, 99, 0.5);
+    overflow: hidden;
+    cursor: pointer;   
+}
+
+.Cuadrado2:hover{
+    transform: translateY(-15px);
+    transition: all 0.20s;
+    
+}
+
+aside{
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+    display: flex;
+    padding:20px;
+    box-sizing: border-box;
+	/*FLEX*/
+	flex: 1 1 30%;
+    display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:space-between; 
+    text-align: center;
+}
+
+.widget {
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    margin: 10px;
+    width: 90%;
+ }
+
+.widget figure img {
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.widget:hover{
+    transform: scale(1.1);
+}
+
+.texto a{
+    text-decoration: none;
+    color: black;
+}
+
+/*  Responsive*/
+@media screen and (max-width: 800px ) {
+    .Contenedor2{
+        flex-direction: column;
+    }
+    aside{
+        flex-direction: column;
+        flex: 0;
+    }
+
+    aside .widget{
+        flex-grow: 1;
+    }
+
+    /*Media de botonera que va para todo*/
+
+    .Menu_section{
+        flex-direction: column;
+        padding: 0;
+    }
+     
+    .Botonera_principal{
+        width: 100%;
+        margin: 0px;  
+    }
+}
+
+@media screen and (max-width: 400px ) {
+    aside{
+        flex-direction: column;
+    }
+
+    footer{
+        justify-content: space-around;
+    }
+
+    .Contenido2{
+        
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    .Menu_section{
+        flex-direction: column;
+        padding: 0;
+    }
+     
+    .Botonera_principal{
+        width: 100%;
+        margin: 0px;
+    }
+}
+/* Response de pagina inicio*/
+
+@media screen and (max-width: 800px ) {
+    
+    .Contenido{
+        width: 100%;
+        margin: 0px;
+    }
+ }
+
+ @media screen and (max-width: 400px ) {
+    .Cuadrado{
+        width: 100%;
+        margin: 0px;
+    }
+ }
+
+.Contendor_formulario{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.col-10{
+    margin: 20px;
+}
+.col-11 button{
+    background: #f1bbf1;
+    color: black;
+}
+
+#Titulo_Form{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}

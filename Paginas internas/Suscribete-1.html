@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIA'S</title>
+    <link rel="stylesheet" href="../Externos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Gabriela&family=Nunito:wght@300&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3f5d79e64.js" crossorigin="anonymous"></script>
+    
+    
+    
+</head>
+<body>
+
+<div class="Contenedor_general">   
+    
+        <header class= "Menu_section" > 
+            <div>
+               <h1 id="Titulo_Form">Wonder Life </h1>
+            </div>
+         <nav class="Botonera_principal" >
+            <a href="../Inicio.html">Inicio</a>
+            <a href="Tendencia.html" > Tendencia </a>       
+            <a href="Bienestar.html" > Bienestar</a>  
+            <a href="Suscribete-1.html" > Suscribete </a>  
+         </nav>
+        </header>
+
+            <div class="Contendor_formulario" >
+                 <form class="row g-2" id="form" method="post" class="form-register" onsubmit="return validar();" >
+            
+                  <div class="col-md-3">
+                    <label for="validationDefault01" class="form-label">Nombre:</label>
+                    <input type="text" placeholder=" Nombre" class="form-control" id="nombre" >
+                  </div>
+                  
+                  <div class="col-md-3">
+                    <label for="validationDefault02" class="form-label"> Apellido: </label>
+                    <input type="text" placeholder="Apellidos"  class="form-control" id="apellido" >
+                  </div>
+            
+                  <div class="col-md-3">
+                    <label for="validationCustom03" class="form-label"> Email: </label>
+                    <input type="email" placeholder=" maria@gmail.com"  class="form-control" id="email"  >
+                  </div>
+            
+                  <div class="col-md-3">
+                    <label for="validationDefault03" class="form-label">País:</label>
+                    <input type="text" placeholder="Argentina" class="form-control" id="pais" >
+                  </div>
+    
+                  <div class="col-md-3">
+                    <label for="género" class="form-label" > Género </label>
+                    <select class="form-select" id="genero" aria-label="Default select example">
+                        <option selected disabled value=""> Elegir </option>
+                        <option value="1"> Femenino </option>
+                        <option value="2"> Masculino </option>
+                        <option value="3"> Prefiero no definir </option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="preferencias" class="form-label">Preferencias</label>
+                        <select class="form-select" id="preferencia" >
+                          <option selected disabled value="">Elegir</option>
+                          <option value="1"> Moda </option>
+                          <option value="2"> Belleza </option>
+                          <option value="3"> Salud</option>
+                          <option value="3"> Tendencias</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please select a valid state.
+                        </div>
+                    </div>
+            
+                  <div class="col-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="terminos">
+                      <label class="form-check-label" for="invalidCheck2">
+                        Acepto Términos y Condiciones Deseo suscribirme y formar parte de Wonder Life para estar al día de todas las novedades en Moda, Belleza y Estilo de vida. 
+                      </label>
+                    </div>
+                  </div>
+            
+                  <div class="col-11">
+                    <button class="btn btn-primary" type="submit">Suscribirse</button>
+                     <hr class="my-2"> 
+                  </div>
+                </form>      
+         </div>
+         <footer>
+            <section class="links">
+                   <a href="#">Inicio</a>
+                   <a href="#">Tendencia</a>
+                   <a href="#">Bienestar</a>
+                   <a href="#">Suscribete</a>
+            </section>
+            <div class="social">
+               <a href="#"><i class="fab fa-twitter-square"></i></a>
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-pinterest-p"></i></a>
+           </div>
+        </footer>
+</div>
+   <script src="../Externos/js/bootstrap.min.js"></script>
+   <script src="../JavaScript/JS.js "></script>
+</body>
+</html>
